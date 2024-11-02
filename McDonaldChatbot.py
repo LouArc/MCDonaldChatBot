@@ -2,6 +2,7 @@ import json
 import random
 import glob
 from ResponseInfo import ResponseInfo
+from Order import Order
 
 
 class Automaton:
@@ -10,6 +11,7 @@ class Automaton:
         self.states = states
         self.state = initialState
         self.finals = finals
+        self.order = Order()
         self.responses = self.load_responses()
 
     def extract_menu(self):
@@ -62,7 +64,6 @@ class Automaton:
                     elif total_weight == highest_weight and total_weight > 0:
                         potential_items.append(item["name"])
 
-        # Final evaluation based on potential items found
         if len(potential_items) > 1 or (best_item and highest_weight < 100):
             print("Sé más específico referente al producto, por favor.")
         elif best_item and highest_weight >= 100:
@@ -115,6 +116,7 @@ class Automaton:
 
         elif responseInfo.bestResponse and responseInfo.highestWeight >= 100:
             self.state = self.mt[self.state][responseInfo.bestTransition]
+            print("new State: ", self.state)
             if self.state in self.finals:
                 exit()
             print(responseInfo.bestResponse)
@@ -122,12 +124,26 @@ class Automaton:
             if self.state == 2:
                 if responseInfo.itemKey == "1":
                     self.print_menu()
+
                 elif responseInfo.itemKey == "2":
                     menuItem = self.get_menu_item(words)
                     self.print_menu_item_description(menuItem)
+
                 elif responseInfo.itemKey == "3":
                     menuItem = self.get_menu_item(words)
                     self.print_menu_item_price(menuItem)
+
+            elif self.state == 3:
+                if responseInfo.itemKey == "1":
+                    menuItem = self.get_menu_item(words)
+                    for item in self.extract_menu():
+                        if item["name"] == menuItem:
+                            self.order.add_item(menuItem, item["price"])
+                            break
+
+                if responseInfo.itemKey == "2":
+                    menuItem = self.get_menu_item(words)
+                    self.order.remove_item(menuItem)
         else:
             print("Lo siento, no entiendo.")
 

@@ -1,0 +1,55 @@
+{
+  "transition": 2,
+  "dialogue": {
+    "1": {
+      "triggers": {
+        "quiero": 100,
+        "agrega": 100,
+        "agregar": 100,
+        "tambien": 20,
+        "me": 40,
+        "podria": 40,
+        "das": 40,
+        "darme": 40,
+        "un": 20,
+        "una": 20,
+        "pido": 100,
+        "pedir": 100,
+        "venden": 100,
+        "muestrame": 100
+      },
+      "responses": [
+        "Claro que si.",
+        "Algo mas para ti?",
+        "Anotado",
+        "Alguna otra cosa?"
+      ]
+    },
+    "2": {
+      "triggers": {
+        "eliminar": 100,
+        "quitar": 100,
+        "quita": 100,
+        "tambien": 20,
+        "cancelar": 100,
+        "no": 40,
+        "quiero": 40,
+        "el": 20,
+        "la": 20,
+        "un": 30,
+        "cambio": 70,
+        "pido": 100,
+        "ajustar": 70,
+        "mi": 10,
+        "orden": 20,
+        "retirar": 60
+      },
+      "responses": [
+        "Perfecto, he eliminado el producto de tu pedido.",
+        "Claro, he hecho la modificación que pediste.",
+        "Listo, he quitado ese artículo de la lista.",
+        "Anotado, ¿hay algo más que te gustaría ajustar?"
+      ]
+    }
+  }
+}
