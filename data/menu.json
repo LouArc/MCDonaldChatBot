@@ -1,0 +1,40 @@
+{
+  "menu": [
+    {
+      "name": "big mac",
+      "title": "Big Mac",
+      "description": "Dos hamburguesas de carne 100% pura, salsa especial, lechuga, queso, pepinillos y cebolla en un pan de sésamo.",
+      "price": 3.99
+    },
+    {
+      "name": "cuarto de libra",
+      "title": "Cuarto de Libra con Queso",
+      "description": "Un cuarto de libra de carne 100% pura, cubierto con dos rebanadas de queso, pepinillos, cebolla, ketchup y mostaza.",
+      "price": 4.79
+    },
+    {
+      "name": "nuggets de pollo",
+      "title": "McNuggets de Pollo",
+      "description": "Crujientes y tiernos nuggets de pollo servidos con tu salsa favorita.",
+      "price": 4.49
+    },
+    {
+      "name": "papas fritas",
+      "title": "Papas Fritas Famosas",
+      "description": "Crujientes y doradas, siempre son un favorito.",
+      "price": 2.29
+    },
+    {
+      "name": "malteada",
+      "title": "McFlurry",
+      "description": "Una deliciosa mezcla de suave helado de vainilla con tu elección de Oreo o M&M's.",
+      "price": 3.49
+    },
+    {
+      "name": "pay",
+      "title": "Pastelito de Manzana",
+      "description": "Un pastelito de manzana caliente con una corteza crujiente y relleno de manzana dulce.",
+      "price": 1.29
+    }
+  ]
+}

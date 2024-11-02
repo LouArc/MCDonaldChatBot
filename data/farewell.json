@@ -1,0 +1,24 @@
+{
+  "transition": 6,
+  "dialogue": {
+    "1": {
+      "triggers": {
+        "adios": 100,
+        "nos": 50,
+        "vemos": 50,
+        "bye": 100,
+        "cuidate": 50,
+        "chao": 100,
+        "hasta": 50,
+        "pronto": 50,
+        "proxima": 50
+      },
+      "responses": [
+        "¡Hasta luego! ¡Que tengas un buen día!",
+        "Adiós, ¡cuídate mucho!",
+        "¡Nos vemos! ¡Hasta la próxima!",
+        "Chao, ¡espero verte pronto!"
+      ]
+    }
+  }
+}

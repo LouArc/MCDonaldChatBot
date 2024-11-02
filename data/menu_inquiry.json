@@ -1,0 +1,34 @@
+{
+  "transition": 1,
+  "dialogue": {
+    "1": {
+      "triggers": {
+        "menu": 100,
+        "comida": 50,
+        "hay": 50,
+        "tienes": 100,
+        "venden": 100,
+        "muestrame": 100
+      },
+      "responses": [
+        "Aquí tienes el menú:",
+        "Estos son nuestros platos disponibles:"
+      ]
+    },
+    "2": {
+      "triggers": {
+        "cuales": 50,
+        "que": 50,
+        "contiene": 50,
+        "lleva": 50,
+        "ingredientes": 50,
+        "tiene": 50,
+        "dentro": 50,
+        "hecha": 50,
+        "hecho": 50,
+        "hay": 50
+      },
+      "responses": ["El producto contiene..."]
+    }
+  }
+}

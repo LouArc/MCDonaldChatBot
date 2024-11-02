@@ -1,0 +1,23 @@
+{
+  "transition": 0,
+  "dialogue": {
+    "1": {
+      "triggers": {
+        "hola": 100,
+        "buenos": 50,
+        "dias": 50,
+        "saludos": 100,
+        "hey": 50,
+        "amigo": 50,
+        "que": 50,
+        "tal": 50
+      },
+      "responses": [
+        "¡Hola!",
+        "¿Que tal?",
+        "Encantado de verte.",
+        "¿Como te encuentras?"
+      ]
+    }
+  }
+}

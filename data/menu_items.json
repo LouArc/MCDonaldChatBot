@@ -1,0 +1,53 @@
+{
+  "menu_items": {
+    "1": {
+      "triggers": {
+        "big": 50,
+        "mac": 50
+      },
+      "name": "big mac"
+    },
+    "2": {
+      "triggers": {
+        "cuarto": 50,
+        "libra": 50
+      },
+      "name": "cuarto de libra"
+    },
+    "3": {
+      "triggers": {
+        "nuggets": 100,
+        "nugget": 100,
+        "mcnuggets": 100,
+        "mcnugget": 100
+      },
+      "name": "nuggets de pollo"
+    },
+    "4": {
+      "triggers": {
+        "papas": 50,
+        "fritas": 50
+      },
+      "name": "papas fritas"
+    },
+    "5": {
+      "triggers": {
+        "flurry": 100,
+        "mcflurry": 100,
+        "malteada": 100
+      },
+      "name": "malteada"
+    },
+    "6": {
+      "triggers": {
+        "pay": 100,
+        "manzana": 50,
+        "pastelito": 100,
+        "mcpay": 100,
+        "pie": 100,
+        "mcpie": 100
+      },
+      "name": "pay"
+    }
+  }
+}
