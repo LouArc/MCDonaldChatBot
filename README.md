@@ -53,6 +53,10 @@ Pastelito de Manzana - $1.29
 El producto contiene...
 Dos hamburguesas de carne 100% pura, salsa especial, lechuga, queso, pepinillos y cebolla en un pan de sésamo.
 
+>> cuanto cuesta la big mac
+El producto cuesta...
+3.99
+
 >> que contiene el mcflurry
 El producto contiene...
 Una deliciosa mezcla de suave helado de vainilla con tu elección de Oreo o M&M's.

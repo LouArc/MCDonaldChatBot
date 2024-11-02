@@ -30,6 +30,13 @@ class Automaton:
                 print(item["description"])
                 break
 
+    def print_menu_item_price(self, menuItem):
+        menu = self.extract_menu()
+        for item in menu:
+            if item["name"] == menuItem:
+                print(item["price"])
+                break
+
     def get_menu_item(self, words):
         best_item = None
         highest_weight = 0
@@ -118,6 +125,9 @@ class Automaton:
                 elif responseInfo.itemKey == "2":
                     menuItem = self.get_menu_item(words)
                     self.print_menu_item_description(menuItem)
+                elif responseInfo.itemKey == "3":
+                    menuItem = self.get_menu_item(words)
+                    self.print_menu_item_price(menuItem)
         else:
             print("Lo siento, no entiendo.")
 

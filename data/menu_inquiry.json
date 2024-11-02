@@ -29,6 +29,18 @@
         "hay": 50
       },
       "responses": ["El producto contiene..."]
+    },
+    "3": {
+      "triggers": {
+        "cuanto": 70,
+        "cuesta": 50,
+        "vale": 50,
+        "que": 50,
+        "precio": 50,
+        "tiene": 30,
+        "esta": 30
+      },
+      "responses": ["El producto cuesta..."]
     }
   }
 }
